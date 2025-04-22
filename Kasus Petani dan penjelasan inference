@@ -1,0 +1,25 @@
+1. Sistem Pakar Berbasis Aturan Logika (4 Aturan)
+Berikut adalah contoh aturan berbasis logika (rule-based system):
+1.	IF daun menguning AND tanaman layu THEN hama: kutu daun.
+2.	IF daun berlubang AND terdapat bercak hitam THEN hama: ulat grayak.
+3.	IF daun menguning AND terdapat bercak hitam THEN hama: jamur patogen.
+4.	IF daun berlubang AND tanaman layu THEN hama: wereng batang coklat.
+
+2. Logika Proposisional dan Pseudocode
+Logika Proposisional:
+Gunakan simbol:
+•	A: Daun menguning
+•	B: Terdapat bercak hitam
+•	C: Daun berlubang
+•	D: Tanaman layu
+Aturan dalam bentuk logika:
+1.	A ∧ D → kutu_daun
+2.	C ∧ B → ulat_grayak
+3.	A ∧ B → jamur_patogen
+4.	C ∧ D → wereng_batang
+
+4. Penjelasan Inference
+•	Input: Daun menguning dan tanaman layu → sistem mengevaluasi aturan pertama.
+•	Inferensi: Kedua kondisi terpenuhi → sistem memutuskan hama: Kutu Daun.
+•	Output: Ditampilkan hasilnya ke pengguna.
+
